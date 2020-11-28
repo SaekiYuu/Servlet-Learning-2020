@@ -1,0 +1,20 @@
+# settings dir
+.settings
+
+# target dir
+target
+
+# project file
+*.project
+
+# classpath file
+*.classpath
+
+# rar package file
+*.rar
+
+# iml file
+*.iml
+
+# idea file
+.idea
