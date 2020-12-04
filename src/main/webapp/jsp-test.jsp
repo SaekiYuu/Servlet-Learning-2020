@@ -68,5 +68,19 @@
             </jsp:element>
             </jsp:body>
         </jsp:element>
+        <h2>JSP Hidden Objects</h2>
+        <ul>
+            <li>request = <%= request.toString()%></li>
+            <li>response = <%= response.toString()%></li>
+            <li>out = <%= out.toString()%></li>
+            <li>session = <%= session.toString()%></li>
+            <li>application = <%= application.toString()%></li>
+            <li>config = <%= config.toString()%></li>
+            <li>config.getServletName() = <%= config.getServletName()%></li>
+            <li>pageContext = <%= pageContext.toString()%></li>
+            <li>page = <%= page.toString()%></li>
+            <li>this = <%= this%></li>
+            <li><%--<%= exception.toString()%>--%></li>
+        </ul>
     </body>
 </html>
