@@ -16,6 +16,9 @@ mvn tomcat7:run
         - `/jsp-forward.jsp`
         - `/jsp-test.jsp`
         - `/jsp-calendar.jsp`
+        - `/407page.jsp`
+        - `/jsp-paramResolver.jsp`
+        - `/redirect-to-index.jsp`
 - Servlet URL is config by annotation `@WebServlet`
 # Feature
 - HelloWorld Server
@@ -29,7 +32,12 @@ mvn tomcat7:run
     - JSP-XML Element
     - JSP Hidden Object
 - `jsp-calendar.jsp`
-    - Auto refresh in JSP
+    - Auto refresh calendar in JSP
+- `407page.jsp`
+    - Return a 407 http status
+- `jsp-paramResolver.jsp`
+    - Show the parameter pairs and Method
+- `redirect-to-index.jsp`
 # TODO-LIST
 - ~~Session Test~~
 - More Test
